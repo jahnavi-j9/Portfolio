@@ -1,0 +1,138 @@
+.project-wrapper {
+  color: white;
+  position: relative;
+}
+
+.project-container {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.project-container > h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/* Grid */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
+/* Card */
+.project-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 100%;
+  border-radius: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 15px rgba(255, 185, 120, 0.3);
+  border-color: var(--secondary);
+}
+
+/* Top bar */
+.project-bar {
+  height: 4px;
+  width: 40px;
+  background: var(--blue);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Image */
+.project-image {
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.project-image img {
+  width: 100%;
+  transition: transform 0.3s ease;
+  border-radius: 1rem;
+}
+
+.project-item:hover .project-image img {
+  transform: scale(1.05);
+}
+
+/* Description */
+.project-item > h3 {
+  font-size: 1.2rem;
+  color: var(--blue);
+  margin: 0.5rem 0 0.3rem 0;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+/* Tech tags */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-tags span {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  color: #ddd;
+}
+
+/* CTA */
+.project-item-cta {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  background: var(--blue-gradient);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0039cb;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .project-item-cta {
+    flex-direction: column;
+  }
+}

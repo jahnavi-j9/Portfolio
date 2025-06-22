@@ -1,0 +1,83 @@
+/* Sticky Header Wrapper */
+.h-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--black); /* Or #000 if not using CSS variables */
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* subtle shadow */
+  width: 100%;
+}
+
+/* Header container */
+.h-container {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Logo style */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--secondary); /* optional highlight */
+}
+
+/* Desktop navigation menu */
+.h-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.h-menu a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.h-menu a:hover {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Hamburger menu icon (hidden by default) */
+.menu-icon {
+  display: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .h-menu {
+    position: absolute;
+    top: 4.5rem;
+    right: 2rem;
+    background: white;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    font-weight: 500;
+    border-radius: 10px;
+    align-items: flex-start;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: all 300ms ease-in-out;
+    z-index: 100;
+  }
+
+  .h-menu a {
+    color: black;
+  }
+
+  .h-menu a:hover {
+    color: var(--primary);
+  }
+}

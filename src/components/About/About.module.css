@@ -1,0 +1,230 @@
+.about-wrapper {
+  color: white;
+  position: relative;
+}
+
+.about-title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  padding: 0 2rem;
+}
+
+/* Headings */
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+/* Reusable block spacing */
+.about-block {
+  margin-bottom: 5rem;
+}
+
+.about-block:last-child {
+  margin-bottom: 0;
+}
+
+/* About description */
+.about-desc {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+/* ====================== Skills ====================== */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.skill-card {
+  padding: 0.7rem 1.2rem;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  font-size: 1rem;
+  color: white;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  border-color: var(--secondary);
+}
+
+/* ====================== Education ====================== */
+.edu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.edu-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--secondary);
+}
+
+.edu-icon {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin-top: 0.3rem;
+}
+
+.edu-content h2 {
+  margin: 0;
+  color: var(--blue);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.edu-degree,
+.edu-duration {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.edu-detail {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* ====================== Achievements ====================== */
+.achievement-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.achievement-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--secondary);
+}
+
+.achievement-icon {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin-top: 0.3rem;
+}
+
+.achievement-content p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin: 0;
+}
+
+/* ====================== Experience ====================== */
+.exp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.exp-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--secondary);
+}
+
+.exp-icon {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin-top: 0.3rem;
+}
+
+.exp-content h2 {
+  margin: 0;
+  color: var(--blue);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.exp-position,
+.exp-duration {
+  font-size: 1rem;
+  color: white;
+  margin: 0.2rem 0;
+}
+
+.exp-description {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 0.4rem;
+}
+
+/* ====================== Responsive ====================== */
+@media (max-width: 640px) {
+  .about-desc {
+    font-size: 0.95rem;
+  }
+
+  .skill-card {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .edu-card,
+  .exp-card,
+  .achievement-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .edu-content h2,
+  .exp-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .edu-icon,
+  .exp-icon,
+  .achievement-icon {
+    margin-bottom: 0.5rem;
+  }
+
+  .achievement-content p {
+    font-size: 1rem;
+  }
+}
