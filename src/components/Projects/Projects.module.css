@@ -103,8 +103,9 @@
 
 /* CTA */
 .project-item-cta {
+  flex-direction: column;
+  gap: 0.8rem;
   display: flex;
-  gap: 1rem;
 }
 
 .button {
