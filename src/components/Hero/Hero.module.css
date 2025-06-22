@@ -131,4 +131,7 @@
   .orange-circle {
     display: none;
   }
+  hero-title h1 {
+    color: #ff922d; 
+  }
 }
