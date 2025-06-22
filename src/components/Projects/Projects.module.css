@@ -130,34 +130,9 @@
 @media (max-width: 768px) {
   .projects {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .project-item {
-    padding: 1.2rem;
-    height: auto;
-    border-radius: 1rem;
-  }
-
-  .project-image img {
-    width: 100%;
-    height: auto;
   }
 
   .project-item-cta {
     flex-direction: column;
-    gap: 0.8rem;
-  }
-
-  .project-tags {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-
-  .tag {
-    font-size: 0.85rem;
-    padding: 0.3rem 0.6rem;
   }
 }
-
