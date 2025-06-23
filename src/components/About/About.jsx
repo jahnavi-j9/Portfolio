@@ -44,7 +44,7 @@ const About = () => {
           <div className={styles['about-block']}>
             <h1 className={styles['section-heading']}>About Me</h1>
             <div className={styles['about-desc']}>
-              I’m <b style={{ color: 'var(--blue)' }}>Jahnavi Grandhi</b>, a Computer Science and Business Systems undergraduate at SRKR Engineering College. I specialize in building responsive full-stack applications using the MERN stack and have a growing interest in artificial intelligence and cloud technologies.
+              I’m <b style={{ color: '#ff922d' }}>Jahnavi Grandhi</b>, a Computer Science and Business Systems undergraduate at SRKR Engineering College. I specialize in building responsive full-stack applications using the MERN stack and have a growing interest in artificial intelligence and cloud technologies.
               <br /><br />
               I’ve worked on real-time projects during my internships, contributed to student communities, and consistently pursue technical certifications to stay industry-ready. I’m driven by curiosity, clarity in execution, and a passion for learning.
             </div>

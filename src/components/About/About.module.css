@@ -89,7 +89,7 @@
 
 .edu-content h2 {
   margin: 0;
-  color: var(--blue);
+  color: #ff922d;
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -177,7 +177,7 @@
 
 .exp-content h2 {
   margin: 0;
-  color: var(--blue);
+  color: #ff922d;
   font-size: 1.3rem;
   font-weight: 600;
 }
