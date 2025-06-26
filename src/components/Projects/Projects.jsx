@@ -29,10 +29,10 @@ const data = [
   {
     id: 3,
     image: imgCanvas,
-    title: 'CODE CANVAS',
-    description: 'Online code editor with real-time HTML/CSS/JS preview using CodeMirror & React.',
-    github: 'https://github.com/jahnavi-j9/Code_canvas',
-    live: 'https://6649a525089caa806d463d6c--bright-banoffee-286a45.netlify.app/',
+    title: 'CODE CRAFT COMPILER',
+    description: 'Online code editor with real-time Multi languages preview using CodeMirror & React.',
+    github: 'https://github.com/jahnavi-j9/Code-Craft',
+    live: 'https://code-craft-compiler.netlify.app',
     tech: ['React', 'CodeMirror', 'CSS']
   },
   {
