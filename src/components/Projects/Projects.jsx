@@ -3,7 +3,7 @@ import styles from './Projects.module.css';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 import imgYoga from '../../assets/yoga.png';
-import imgBurger from '../../assets/bb-1.png';
+import imgCarrier from '../../assets/carrier.png';
 import imgCanvas from '../../assets/CC.png';
 import imgWeather from '../../assets/weather.png';
 
@@ -19,12 +19,12 @@ const data = [
   },
   {
     id: 2,
-    image: imgBurger,
-    title: 'BURGER ORDER ONLINE',
-    description: 'Food ordering app with Razorpay, admin panel & 200+ orders/day capacity.',
-    github: 'https://github.com/jahnavi-j9/Burger_order_app',
-    live: 'https://bossburgerb6.netlify.app/',
-    tech: ['React', 'Express', 'MongoDB']
+    image: imgCarrier,
+    title: 'carriers-website',
+    description: 'Carriers website with 200+ Applications capacity.',
+    github: 'https://github.com/jahnavi-j9/CarrerNest',
+    live: 'https://carrer-nest.netlify.app/',
+    tech: ['React', 'Express', 'SQL']
   },
   {
     id: 3,
