@@ -18,7 +18,7 @@ const experiences = [
   {
     company: 'GRADIOUS Technologies',
     position: 'Placement Training (COHORT-39) - Full Stack Developer',
-    duration: '2024-present',
+    duration: '2025-present',
     description: 
         ' Selected for specialized training in Full Stack Development with a focus on real-world applications. Gaining hands-on experience through industry-relevant projects and coding challenges.'
 
