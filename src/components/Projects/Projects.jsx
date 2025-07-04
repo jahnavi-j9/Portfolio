@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     image: imgYoga,
-    title: 'AI-Powered Yoga Platform',
+    title: 'AI-POWERED YOGA PLATFORM',
     description: 'Built using MERN and TensorFlow.js for real-time pose detection with 90% accuracy.',
     github: 'https://github.com/jahnavi-j9/ai_yoga_tutor',
     live: 'https://aiyogatutor.netlify.app/',
@@ -20,8 +20,8 @@ const data = [
   {
     id: 2,
     image: imgCarrier,
-    title: 'carriers-website',
-    description: 'Carriers website with 200+ Applications capacity.',
+    title: 'CAREER NEST',
+    description: 'Carriers website with 100+ Applications capacity.',
     github: 'https://github.com/jahnavi-j9/CarrerNest',
     live: 'https://carrer-nest.netlify.app/',
     tech: ['React', 'Express', 'SQL']
@@ -38,7 +38,7 @@ const data = [
   {
     id: 4,
     image: imgWeather,
-    title: 'Weather Application',
+    title: 'WEATHER APPLICATION',
     description: 'Responsive weather app fetching real-time data using OpenWeatherMap API.',
     github: 'https://github.com/jahnavi-j9/Weather',
     live: 'https://jahnavi-j9.github.io/Weather/',
