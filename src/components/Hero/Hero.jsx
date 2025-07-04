@@ -52,7 +52,7 @@ const Hero = () => {
                             <p>Architecting innovative solutions with Full Stack expertise.</p>
                             <motion.div className={`${styles['btn-container']} flexStart`}>
                                 <button className="button" style={{ marginRight: '2rem' }}>
-                                    <a href='https://drive.google.com/file/d/1uvEe6oRb-mLeyp7M8A81S4a8SXOwxXMU/view?usp=drivesdk' target='_blank' rel="noreferrer">
+                                    <a href='https://drive.google.com/file/d/1uwy3gDmPyW11RSbx1q-3s3KhMtFeQ2Zd/view?usp=drivesdk' target='_blank' rel="noreferrer">
                                         Download CV
                                     </a>
                                 </button>   
