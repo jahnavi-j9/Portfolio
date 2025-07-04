@@ -10,17 +10,17 @@ const skills = [
 const experiences = [
   {
     company: 'TEN Technologies',
-    position: 'React.js Developer Intern',
+    position: 'Frontend Developer',
     duration: '2025-present',
     description:
-      'Built responsive web interfaces using React.js and integrated APIs for real-time projects. Collaborated with the team to deliver optimized, production-ready applications.'
+      'Engineered responsive user interfaces, reducing page load times by 40% and improving overall user experience for real-time data visualization projects.'
   },
   {
     company: 'GRADIOUS Technologies',
     position: 'Placement Training (COHORT-39) - Full Stack Developer',
     duration: '2025-present',
     description: 
-        ' Selected for specialized training in Full Stack Development with a focus on real-world applications. Gaining hands-on experience through industry-relevant projects and coding challenges.'
+        ' Maintained a 90% average in intensive full-stack development training and applied learnings to construct  fully functional web applications with complete front-end and back-end integration.'
 
   }
 ];
@@ -36,7 +36,7 @@ const education = [
 
 const achievements = [
   'Piloted 5 workshops on ethical coding practices via Code of Conduct Club, reaching 100+ students.',
-  'Certified by Cisco Networking Academy for network troubleshooting and IPv6 setup.',
+  'Certified by Cisco Networking Academy in Network Addressing and Basic Troubleshooting.',
   'Completed 6 Google Cloud Certifications in AI, ML, Infra, and Networking (Study Jam 2023).',
   'Academic Topper in CSBS (2022–2023) with a CGPA of 9.23.'
 ];
