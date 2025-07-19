@@ -79,11 +79,11 @@
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  
 }
 
 .button:hover {
   background-color: #0039cb;
-  transform: scale(1.05);
   box-shadow: 0 0 12px rgba(0, 115, 255, 0.4);
 }
 

@@ -14,7 +14,7 @@ const Contact = () => {
       'service_b4afr7i',
       'template_3wugpvc',
       form.current,
-      'R1mczJ4Z6FvD15uz_'
+      'k_nGEAv0409m1cWeW'
     ).then(
       (result) => {
         console.log(result.text);
@@ -55,7 +55,7 @@ const Contact = () => {
             <FaCommentDots className={styles['input-icon']} />
             <textarea name="message" rows="5" placeholder="Your Message" required />
           </div>
-          <button className="button" type="submit">✉️ Send Message</button>
+          <button className={styles.button} type="submit">Send</button>
           {done && <span className={styles['thankyou']}>Thanks! I'll reply soon 😊</span>}
         </motion.form>
       </div>
