@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './About.module.css';
 
 const skills = [
-  'React.js', 'Node.js', 'Express.js', 'MongoDB', 'TensorFlow.js',
-  'Python', 'Java', 'JavaScript', 'HTML', 'CSS',
-  'SQL', 'Git & GitHub', 'Figma', 'Pandas', 'NumPy'
+  'Figma', 'HTML', 'CSS', 'JavaScript', 'React.js',
+  'Node.js', 'Express.js', 'SQL', 'Python', 'Java',
+  'Pandas', 'NumPy', 'Git & GitHub', 'Data Structures','TensorFlow.js'
 ];
 
 const experiences = [
