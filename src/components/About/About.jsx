@@ -31,6 +31,12 @@ const education = [
     degree: 'B.Tech, Computer Science and Business Systems (CSBS)',
     duration: '2022 – Present',
     details: 'CGPA: 9.07/10'
+  },
+  {
+    institution: 'IIT Madras',
+    degree: 'BSC, Programming and Data Science',
+    duration: '2025 – Present',
+    details: 'Online'
   }
 ];
 
