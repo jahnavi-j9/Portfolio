@@ -6,6 +6,8 @@ import imgYoga from '../../assets/yoga.png';
 import imgCarrier from '../../assets/carrier.png';
 import imgCanvas from '../../assets/CC.png';
 import imgWeather from '../../assets/weather.png';
+import imgDraw from '../../assets/draw.png';
+import imgportfolio from '../../assets/portfolio.png';
 
 const data = [
   {
@@ -42,6 +44,24 @@ const data = [
     description: 'Responsive weather app fetching real-time data using OpenWeatherMap API.',
     github: 'https://github.com/jahnavi-j9/Weather',
     live: 'https://jahnavi-j9.github.io/Weather/',
+    tech: ['HTML', 'CSS', 'JavaScript', 'API']
+  },
+   {
+    id: 5,
+    image: imgDraw,
+    title: 'DRAW & PLAY',
+    description: 'Online collaborative word guessing platform.',
+    github: 'https://github.com/jahnavi-j9/Draw-and-Play',
+    live: 'https://wordguessing.onrender.com/',
+    tech: ['HTML', 'CSS', 'JavaScript', 'API']
+  },
+  {
+    id: 6,
+    image: imgportfolio,
+    title: 'PORTFOLIO WEBSITE',
+    description: 'This is my portfolio website where you can know more about me',
+    github: 'https://github.com/jahnavi-j9/Portfolio',
+    live: 'https://jahnavi-portfolio-website.netlify.app/',
     tech: ['HTML', 'CSS', 'JavaScript', 'API']
   }
 ];

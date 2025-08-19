@@ -1,5 +1,5 @@
 import React from 'react';
-import pfp from '../../assets/pfp.jpeg';
+import pfp from '../../assets/pfp.jpg';
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
@@ -52,7 +52,7 @@ const Hero = () => {
                             <p>Architecting innovative solutions with Full Stack expertise.</p>
                             <motion.div className={`${styles['btn-container']} flexStart`}>
                                 <button className="button" style={{ marginRight: '2rem' }}>
-                                    <a href='https://drive.google.com/file/d/1-_PoxGrIKJkUiGzCwcGzUti-pKWoMGAO/view?usp=drivesdk' target='_blank' rel="noreferrer">
+                                    <a href='https://drive.google.com/file/d/18z0zZLBfeVcMpA-YFzkkd-Lw4lrCflQN/view?usp=drivesdk' target='_blank' rel="noreferrer">
                                         Download CV
                                     </a>
                                 </button>   
